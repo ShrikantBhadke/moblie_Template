@@ -54,6 +54,7 @@ div[class^="col"]{
 	text-transform: uppercase;
 	margin-bottom: 60px;
 	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
 }
 .para{
 	font-size: 36px;
