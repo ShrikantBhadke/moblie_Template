@@ -1,0 +1,170 @@
+.heroImg{
+	background-image:linear-gradient(rgb(218, 51, 45,0.5),rgb(218, 51, 45,0.5)), url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 45px 0 64px ;
+	overflow: hidden;
+}
+.heroImg .navbar li{
+	display: inline-block;
+	padding-top: 16px;
+}
+.heroImg .navbar li:not(:last-child){
+	margin-right: 40px;
+}
+.heroImg .navbar a{
+	padding: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	
+}
+.heroImg .navbar a:hover{
+	border-bottom: 5px solid #ffffff;
+	
+}
+.download a{
+	font-size: 17px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #282828;
+	text-transform: uppercase;
+	padding: 15px 48px 15px 35px ;
+	border-radius: 45px;
+	margin-left: 50px;
+	display: inline-block;
+}
+.download a i{
+	margin-right: 20px;
+	font-size: 38px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.heroImg .mobileImg{
+	position: relative;
+}
+.heroImg .mobileImg img{
+	position: absolute;
+	right:0;
+	top: -45px;
+}
+
+
+/* ----------------------------------app-feature section----------------------- */
+
+
+.app_features{
+	padding: 85px 0 100px;
+}
+.app_features .sec-heading{
+	font-size: 52px;
+	font-weight: bold;
+	color: #8a8a8a;
+	text-transform: uppercase;
+	margin-bottom:40px;
+}
+.app_features .para{
+	font-size: 22px;
+	color: #3a3a3a;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+.thumbnail_img{
+	margin-bottom: 36px;
+}
+.app_features .third_heading{
+	font-size: 24px;
+	font-weight: bold;
+	color: #1a1a1a;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.app_features .fet_para{
+	font-size: 18px;
+	font-weight: 400;
+	color: #646464;
+	padding: 0 50px;
+}
+
+/* ----------------------------------choclet section----------------------- */
+
+.choclate{
+	padding:200px 0 170px;
+	background-image: url(../images/background1.jpg);
+	background-color: #d7dedc;
+}
+.choco_heading{
+	font-size: 52px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	color: #ffffff;
+}
+.choco_para{
+	font-size: 24px;
+	color:#585858;
+	font-weight: 400;
+	margin-bottom: 70px;
+}
+.choclate .btn{
+	padding: 20px;
+	color:#ffffff;
+	font-size: 15px;
+	background-color: #d9332d ;
+	border-radius: 50px;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+} 
+
+/* ----------------------------------mobileapp section----------------------- */
+
+.mobileapp{
+	padding: 120px 0 150px;
+	background-color: #2e2e38 ;
+}
+.botlogo{
+	margin-bottom: 60px;;
+}
+.bot_heading{
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.mobileapp li, li a, p{
+	font-size: 15px;
+	color: #ffffff;
+	margin-bottom: 16px;
+
+}
+.mobileapp li i{
+	font-size: 40px;
+	color:#d9332d;
+	margin-right: 14px ;
+	vertical-align: middle;
+}
+.mobileapp p{
+	/* font-size: 15px;
+	color: #ffffff;
+	margin-bottom: 20px; */
+	font-style: italic;
+}
+/* =============================================================================================== */
+.fotter{
+	padding: 40px 0;
+	background-color: #d7dedc;
+}
+.fotter ul{
+	display: inline-block;
+}
+.fotter li{
+	display: inline-block;
+	margin: 0 25px;
+}
+.fotter li a{
+	color:#000;
+
+}
